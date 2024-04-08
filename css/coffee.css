@@ -1,0 +1,97 @@
+/* Title */
+main #title {
+    padding: 20px 0;
+}
+
+main #title .container .subs {
+    display: flex;
+    justify-content: end;
+}
+
+main #title .container .subs a:first-of-type:before {
+    content: '\F422';
+    font-family: 'bootstrap-icons' !important;
+}
+
+main #title .container .subs a:last-of-type {
+    font-size: 14px;
+}
+
+/* BlendSwiper */
+main #blendswiper {
+    height: 33vw;
+}
+
+main #blendswiper .swiper {
+    height: 100%;
+}
+
+main #blendswiper .swiper .swiper-wrapper .swiper-slide:first-child {
+    background: url('../images/Spring_promotion_all.jpg') no-repeat center/cover;
+}
+
+main #blendswiper .swiper .swiper-wrapper .swiper-slide:nth-child(2) {
+    background: url('../images/elsalvador_all.jpg') no-repeat center/cover;
+}
+
+main #blendswiper .swiper .swiper-wrapper .swiper-slide a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+main #blendswiper .swiper .bottom_btn {
+    position: absolute;
+    bottom: 15px;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+}
+
+main #blendswiper .swiper .swiper-pagination {
+    position: static;
+}
+
+main #blendswiper .swiper .swiper-pagination .swiper-pagination-bullet {
+    opacity: .5;
+    width: 15px;
+    height: 15px;
+}
+
+main #blendswiper .swiper .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    box-sizing: border-box;
+    border: 3px solid #007042;
+    background-color: transparent;
+}
+
+main #blendswiper .swiper .bottom_btn .stop_pause a {
+    display: flex;
+    align-items: center;
+}
+
+main #blendswiper .swiper .bottom_btn .stop_pause a:before {
+    content: '\F4C3';
+    font-family: 'bootstrap-icons' !important;
+    font-size: 21px;
+    opacity: .6;
+}
+
+main #blendswiper .swiper .bottom_btn .stop_pause a.paused:before {
+    content: '\F4F4';
+}
+
+main #blendswiper .swiper .swiper-button-prev,
+main #blendswiper .swiper .swiper-button-next {
+    width: 52px;
+    height: 52px;
+    border: 2px solid #000;
+    border-radius: 50%;
+}
+
+main #blendswiper .swiper .swiper-button-prev:after,
+main #blendswiper .swiper .swiper-button-next:after {
+    color: #000;
+    font-size: 25px;
+}
