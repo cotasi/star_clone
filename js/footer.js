@@ -27,4 +27,26 @@ window.addEventListener('DOMContentLoaded',()=>{
    changebtn();
 
    window.onresize = changebtn;
+
+
+   // 푸터 슬라이드
+   const footerslide = () => {
+    if(window.innerWidth <= 1100) {
+        const ul = document.querySelector('footer .awards ul');
+        const li = document.querySelectorAll('footer .awards ul li');
+        let current = 0;
+        setInterval(()=>{
+            ul.style.left = `${(current + 1) * 33.3}` + '%';
+            current++;
+            if(current >= 3) {
+                current = -1;
+            }
+            ul.appendChild(li[0]);
+        },5000)
+    }
+   }
+
+   window.onresize = footerslide;
+
+
 })

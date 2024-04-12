@@ -23,15 +23,15 @@ const menudata = [
                     },
                     {
                         "menuthree": "최상의 아라비카 원두",
-                        "menuthreelink": "/coffee/story/arabika"
+                        "menuthreelink": "javascript:void(0)"
                     },
                     {
                         "menuthree": "스타벅스 로스트 스펙트럼",
-                        "menuthreelink": "/sub/story/Spectrum.html"
+                        "menuthreelink": "javascript:void(0)"
                     },
                     {
                         "menuthree": "스타벅스 디카페인",
-                        "menuthreelink": "/coffee/story/decappain"
+                        "menuthreelink": "javascript:void(0)"
                     }
                 ]
             },
@@ -77,7 +77,7 @@ const menudata = [
             },
             {
                 "menutwo": "최상의 커피를 마시는 법",
-                "menutwolink": "/coffee/todrink",
+                "menutwolink": "javascript:void(0)",
                 "detail": [
                     {
                         "menuthree": "커피 프레스",
@@ -309,11 +309,11 @@ const menudata = [
             },
             {
                 "menutwo": "스타벅스 카드",
-                "menutwolink": "/sreward/card",
+                "menutwolink": "javascript:void(0)",
                 "detailthree": [
                     {
                         "menuthree": "스타벅스 카드 소개",
-                        "menuthreelink": "/sreward/card/intro"
+                        "menuthreelink": "javascript:void(0)"
                     }
                 ]
             },

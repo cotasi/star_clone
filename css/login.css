@@ -1,0 +1,133 @@
+main #log_page {
+    width: 100%;
+    height: 900px;
+    background: url('../images/login/login_bg.jpg') no-repeat 0 0/cover fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main #log_page form {
+    display: inline-block;
+}
+
+main #log_page form fieldset {
+    display: inline-block;
+    width: 100%;
+}
+
+main #log_page form fieldset strong {
+    display: block;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    padding-bottom: 50px;
+}
+
+main #log_page form #loginbox {
+    max-width: 570px;
+    background-color: #fff;
+}
+
+main #log_page form #loginbox .title {
+    width: 100%;
+    padding: 30px 0;
+    border-bottom: 1px solid rgba(0,0,0,.5);
+}
+
+main #log_page form #loginbox .title h2 {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+main #log_page form #loginbox .title h2 b {
+    color: #006633;
+    font-weight: 300;
+}
+
+main #log_page form #loginbox .login_main {
+    padding: 20px;
+}
+
+main #log_page form #loginbox .login_main .login_id #frm_id,
+main #log_page form #loginbox .login_main .login_pw #frm_pw {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    border: 1px solid rgba(0,0,0,.35);
+    border-radius: 5px;
+}
+
+main #log_page form #loginbox .login_main .login_id #frm_id::placeholder,
+main #log_page form #loginbox .login_main .login_pw #frm_pw::placeholder {
+    font-size: 14px;
+}
+
+main #log_page form #loginbox .login_main .login_check {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+main #log_page form #loginbox .login_main .login_check label {
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+main #log_page form #loginbox .login_main .login_check .checking {
+    position: absolute;
+    left: 0;
+    width: 26px;
+    height: 26px;
+    background: url('../images/login/not_check.png') no-repeat center/contain; 
+}
+
+main #log_page form #loginbox .login_main .login_check .checking.on {
+    background-image: url('../images/login/yes_check.png');
+}
+
+main #log_page form #loginbox .login_main .login_check input {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    opacity: 0;
+}
+
+main #log_page form #loginbox .login_main .login_check input:focus {
+    outline: none;
+}
+
+main #log_page form #loginbox .login_main .login_submit button {
+    width: 100%;
+    border: none;
+    padding: 15px 0;
+    font-size: 22px;
+    background-color: #006633;
+    color: #fff;
+
+}
+
+
+main #log_page form #loginbox .warning_text {
+    padding: 15px 0;
+}
+
+main #log_page form #loginbox .warning_text * {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #006633;
+}
+
+main #log_page form #loginbox .login_other {
+    display: flex;
+}
+
+main #log_page form #loginbox .login_other a {
+    width: 33.3%;
+    text-align: center;
+    padding: 25px 0;
+}
