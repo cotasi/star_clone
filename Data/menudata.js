@@ -5,33 +5,21 @@ const menudata = [
         "detail":[
             {
                 "menutwo": "커피",
-                "menutwolink": "/coffee/coffee",
+                "menutwolink": "/sub/coffee/coffee.html",
                 "detailthree": [
                     {
                         "menuthree": "스타벅스 원두",
-                        "menuthreelink": "/coffee/coffee/wondo"
-                    },
-                    {
-                        "menuthree": "스타벅스 비아",
-                        "menuthreelink": "/coffee/coffee/bia"
-                    },
-                    {
-                        "menuthree": "스타벅스 앳홈 by 캡슐",
-                        "menuthreelink": "/coffee/coffee/athome"
-                    },
-                    {
-                        "menuthree": "나와 어울리는 커피",
-                        "menuthreelink": "/coffee/coffee/me"
+                        "menuthreelink": "/sub/coffee/coffee.html"
                     }
                 ]
             },
             {
                 "menutwo": "커피 이야기",
-                "menutwolink": "/coffee/story",
+                "menutwolink": "/sub/story/farm.html",
                 "detailthree": [
                     {
                         "menuthree": "농장에서 우리의 손으로",
-                        "menuthreelink": "/coffee/story/farm"
+                        "menuthreelink": "/sub/story/farm.html"
                     },
                     {
                         "menuthree": "최상의 아라비카 원두",
@@ -39,7 +27,7 @@ const menudata = [
                     },
                     {
                         "menuthree": "스타벅스 로스트 스펙트럼",
-                        "menuthreelink": "/coffee/story/spectrum"
+                        "menuthreelink": "/sub/story/Spectrum.html"
                     },
                     {
                         "menuthree": "스타벅스 디카페인",
@@ -49,41 +37,41 @@ const menudata = [
             },
             {
                 "menutwo": "스타벅스 리저브",
-                "menutwolink": "/coffee/reserve",
+                "menutwolink": "javascript:void(0)",
                 "detailthree": [
                     {
                         "menuthree": "RESERVE MAGAZINE",
-                        "menuthreelink": "/coffee/reserve/magazine"
+                        "menuthreelink": "javascript:void(0)"
                     }
                 ]
             },
             {
                 "menutwo": "에스프레소 음료",
-                "menutwolink": "/coffee/espresso",
+                "menutwolink": "javascript:void(0)",
                 "detailthree": [
                     {
                         "menuthree": "도피오",
-                        "menuthreelink": "/coffee/espresso/doffio"
+                        "menuthreelink": "javascript:void(0)"
                     },
                     {
                         "menuthree": "에스프레소 마끼아또",
-                        "menuthreelink": "/coffee/espresso/makiatto"
+                        "menuthreelink": "javascript:void(0)"
                     },
                     {
                         "menuthree": "아메리카노",
-                        "menuthreelink": "/coffee/espresso/americano"
+                        "menuthreelink": "javascript:void(0)"
                     },
                     {
                         "menuthree": "카푸치노",
-                        "menuthreelink": "/coffee/espresso/cappuchino"
+                        "menuthreelink": "javascript:void(0)"
                     },
                     {
                         "menuthree": "라떼",
-                        "menuthreelink": "/coffee/espresso/latte"
+                        "menuthreelink": "javascript:void(0)"
                     },
                     {
                         "menuthree": "모카",
-                        "menuthreelink": "/coffee/espresso/mocha"
+                        "menuthreelink": "javascript:void(0)"
                     }
                 ]
             },
@@ -93,19 +81,19 @@ const menudata = [
                 "detail": [
                     {
                         "menuthree": "커피 프레스",
-                        "menuthreelink": "/coffee/todrink/press"
+                        "menuthreelink": "javascript:void(0)"
                     },
                     {
                         "menuthree": "푸어 오버",
-                        "menuthreelink": "/coffee/todrink/pure"
+                        "menuthreelink": "javascript:void(0)"
                     },
                     {
                         "menuthree": "아이스 푸어 오버",
-                        "menuthreelink": "/coffee/todrink/icepure"
+                        "menuthreelink": "javascript:void(0)"
                     },
                     {
                         "menuthree": "커피 메이커",
-                        "menuthreelink": "/coffee/todrink/comaker"
+                        "menuthreelink": "javascript:void(0)"
                     }
                 ]
             }
@@ -113,111 +101,111 @@ const menudata = [
     },
     {
         "menuone": "MENU",
-        "menuonelink": "/menu",
+        "menuonelink": "javascript:void(0)",
         "detail": [
             {
                 "menutwo": "음료",
-                "menutwolink": "/menu/drink",
+                "menutwolink": "javascript:void(0)",
                 "detailthree": [
                     {
                         "menuthree": "콜드 브루",
-                        "menuthreelink": "/menu/drink/coldbrew"
+                        "menuthreelink":"javascript:void(0)"
                     },
                     {
                         "menuthree": "브루드 커피",
-                        "menuthreelink": "/menu/drink/brewed"
+                        "menuthreelink": "javascript:void(0)"
                     },
                     {
                         "menuthree": "에스프레소",
-                        "menuthreelink": "/menu/drink/espresso"
+                        "menuthreelink": "javascript:void(0)"
                     },
                     {
                         "menuthree": "프라푸치노",
-                        "menuthreelink": "/menu/drink/prapochino"
+                        "menuthreelink": "javascript:void(0)"
                     },
                     {
                         "menuthree": "블렌디드",
-                        "menuthreelink": "/menu/drink/blended"
+                        "menuthreelink": "javascript:void(0)"
                     },
                     {
                         "menuthree": "스타벅스 리플레셔",
-                        "menuthreelink": "/menu/drink/refresher"
+                        "menuthreelink": "javascript:void(0)"
                     },
                     {
                         "menuthree": "스타벅스 피지오",
-                        "menuthreelink": "/menu/drink/piggio"
+                        "menuthreelink": "javascript:void(0)"
                     }
                 ]
             },
             {
                 "menutwo": "푸드",
-                "menutwolink": "/menu/food",
+                "menutwolink": "javascript:void(0)",
                 "detailthree": [
                     {
                         "menuthree": "브레드",
-                        "menuthreelink": "/menu/food/bread"
+                        "menuthreelink": "javascript:void(0)"
                     },
                     {
                         "menuthree": "케이크",
-                        "menuthreelink": "/menu/food/cake"
+                        "menuthreelink": "javascript:void(0)"
                     },
                     {
                         "menuthree": "샌드위치 & 샐러디",
-                        "menuthreelink": "/menu/food/sandsalad"
+                        "menuthreelink": "javascript:void(0)"
                     },
                     {
                         "menuthree": "과일 & 요거트",
-                        "menuthreelink": "/menu/food/yogurt"
+                        "menuthreelink": "javascript:void(0)"
                     }
                 ]
             },
             {
                 "menutwo": "상품",
-                "menutwolink": "/menu/product",
+                "menutwolink": "javascript:void(0)",
                 "detailthree": [
                     {
                         "menuthree": "머그",
-                        "menuthreelink": "/menu/product/mug"
+                        "menuthreelink": "javascript:void(0)"
                     },
                     {
                         "menuthree": "글라스",
-                        "menuthreelink": "/menu/product/glass"
+                        "menuthreelink": "javascript:void(0)"
                     },
                     {
                         "menuthree": "플라스틱 텀블러",
-                        "menuthreelink": "/menu/product/plastic"
+                        "menuthreelink": "javascript:void(0)"
                     },
                     {
                         "menuthree": "스테인리스 텀블러",
-                        "menuthreelink": "/menu/product/stainless"
+                        "menuthreelink": "javascript:void(0)"
                     }
                 ]
             },
             {
                 "menutwo": "카드",
-                "menutwolink": "/menu/cards",
+                "menutwolink": "javascript:void(0)",
                 "detailthree": [
                     {
                         "menuthree": "실물카드",
-                        "menuthreelink": "/menu/cards/real"
+                        "menuthreelink": "javascript:void(0)"
                     },
                     {
                         "menuthree": "e-Gift 카드",
-                        "menuthreelink": "/menu/cards/egift"
+                        "menuthreelink": "javascript:void(0)"
                     }
                 ]
             },
             {
                 "menutwo": "메뉴 이야기",
-                "menutwolink": "/menu/story",
+                "menutwolink": "javascript:void(0)",
                 "detailthree": [
                     {
                         "menuthree": "스타벅스 티바나",
-                        "menuthreelink": "/menu/story/teabana"
+                        "menuthreelink": "javascript:void(0)"
                     },
                     {
                         "menuthree": "스타벅스 콜드 브루",
-                        "menuthreelink": "/menu/story/coldbrew"
+                        "menuthreelink": "javascript:void(0)"
                     }
                 ]
             }
@@ -225,85 +213,81 @@ const menudata = [
     },
     {
         "menuone": "STORE",
-        "menuonelink": "/store",
+        "menuonelink": "javascript:void(0)",
         "detail": [
             {
                 "menutwo": "매장찾기",
-                "menutwolink": "/store/find",
+                "menutwolink": "javascript:void(0)",
                 "detailthree": [
                     {
                         "menuthree": "퀵 검색",
-                        "menuthreelink": "/store/find/quick"
-                    },
-                    {
-                        "menuthree": "지역 검색",
-                        "menuthreelink": "/store/find/local"
+                        "menuthreelink": "javascript:void(0)"
                     }
                 ]
             },
             {
                 "menutwo": "드라이브 쓰루 매장",
-                "menutwolink": "/store/through",
+                "menutwolink": "javascript:void(0)",
                 "detailthree": []
             },
             {
                 "menutwo": "스타벅스 리저브 매장",
-                "menutwolink": "/store/reserve",
+                "menutwolink": "javascript:void(0)",
                 "detailthree": []
             },
             {
                 "menutwo": "커뮤니티 스토어 매장",
-                "menutwolink": "/store/com",
+                "menutwolink": "javascript:void(0)",
                 "detailthree": []
             },
         ]
     },
     {
         "menuone": "RESPONSIBILITY",
-        "menuonelink": "/response",
+        "menuonelink": "javascript:void(0)",
         "detail": [
             {
                 "menutwo": "사회공헌 캠페인 소개",
-                "menutwolink": "/response/campain",
+                "menutwolink": "javascript:void(0)",
                 "detailthree": []
             },
             {
                 "menutwo": "지역 사회 참여 활동",
-                "menutwolink": "/response/social",
+                "menutwolink": "javascript:void(0)",
                 "detailthree": [
                     {
                         "menuthree": "희망배달캠페인",
-                        "menuthreelink": "/response/social/delivery"
+                        "menuthreelink": "javascript:void(0)"
                     }
                 ]
             },
             {
                 "menutwo": "환경 보호 활동",
-                "menutwolink": "/response/environ",
+                "menutwolink": "javascript:void(0)",
                 "detailthree": [
                     {
                         "menuthree": "친환경활동",
-                        "menuthreelink": "/response/environ/friend"
+                        "menuthreelink": "javascript:void(0)"
                     }
                 ]
             },
             {
                 "menutwo": "윤리 구매",
-                "menutwolink": "/response/ethics",
+                "menutwolink": "javascript:void(0)",
                 "detailthree": [
                     {
                         "menuthree": "윤리적 원두 구매",
-                        "menuthreelink": "/response/ethics/wondo"
+                        "menuthreelink": "javascript:void(0)"
                     }
                 ]
             },
             {
                 "menutwo": "글로벌 사회 공헌",
-                "menutwolink": "/response/global",
+                "menutwolink": "javascript:void(0)",
                 "detailthree": [
                     {
                         "menuthree": "윤리 경영 보고서",
-                        "menuthreelink": "/response/global/report"
+                        "menuthreelink": "javascript:void(0)"
                     }
                 ]
             }
@@ -311,15 +295,15 @@ const menudata = [
     },
     {
         "menuone": "STARBUCKS REWARDS",
-        "menuonelink": "/sreward",
+        "menuonelink": "javascript:void(0)",
         "detail": [
             {
                 "menutwo": "스타벅스 리워드",
-                "menutwolink": "/sreward/reward",
+                "menutwolink": "javascript:void(0)",
                 "detailthree": [
                     {
                         "menuthree": "스타벅스 리워드 소개",
-                        "menuthreelink": "/sreward/reward/intro"
+                        "menuthreelink": "javascript:void(0)"
                     }
                 ]
             },
@@ -335,11 +319,11 @@ const menudata = [
             },
             {
                 "menutwo": "스타벅스 e-Gift Card",
-                "menutwolink": "/sreward/egift",
+                "menutwolink": "javascript:void(0)",
                 "detailthree": [
                     {
                         "menuthree": "스타벅스 e-Gift 카드 소개",
-                        "menuthreelink": "/sreward/egift/intro"
+                        "menuthreelink": "javascript:void(0)"
                     }
                 ]
             }
@@ -347,25 +331,25 @@ const menudata = [
     },
     {
         "menuone": "CORPORATE SALES",
-        "menuonelink": "/csales",
+        "menuonelink": "javascript:void(0)",
         "detail": [
             {
                 "menutwo": "단체 및 기업 구매 안내",
-                "menutwolink": "/csales/group",
+                "menutwolink": "javascript:void(0)",
                 "detailthree": [
                     {
                         "menuthree": "MD 선택",
-                        "menuthreelink": "/csales/group/md"
+                        "menuthreelink": "javascript:void(0)"
                     }
                 ]
             },
             {
                 "menutwo": "단체 주문 배달 안내",
-                "menutwolink": "/csales/delivery",
+                "menutwolink": "javascript:void(0)",
                 "detailthree": [
                     {
                         "menuthree": "단체 주문 배달 안내",
-                        "menuthreelink": "/csales/delivery/groups"
+                        "menuthreelink": "javascript:void(0)"
                     }
                 ]
             }
@@ -373,46 +357,46 @@ const menudata = [
     },
     {
         "menuone": "WHAT'S NEW",
-        "menuonelink": "/new",
+        "menuonelink": "javascript:void(0)",
         "detail": [
             {
                 "menutwo": "이벤트",
-                "menutwolink": "/new/event",
+                "menutwolink": "javascript:void(0)",
                 "detailthree": [
                     {
                         "menuthree": "전체",
-                        "menuthreelink": "/new/event/all"
+                        "menuthreelink": "javascript:void(0)"
                     }
                 ]
             },
             {
                 "menutwo": "뉴스",
-                "menutwolink": "/new/news",
+                "menutwolink": "javascript:void(0)",
                 "detailthree": [
                     {
                         "menuthree": "전체",
-                        "menuthreelink": "/new/news/all"
+                        "menuthreelink": "javascript:void(0)"
                     }
                 ]
             },
             {
                 "menutwo": "매장별 이벤트",
-                "menutwolink": "/new/store",
+                "menutwolink": "javascript:void(0)",
                 "detailthree": [
                     {
                         "menuthree": "일반 매장",
-                        "menuthreelink": "/new/store/manual"
+                        "menuthreelink": "javascript:void(0)"
                     }
                 ]
             },
             {
                 "menutwo": "공지사항",
-                "menutwolink": "/new/notice",
+                "menutwolink": "javascript:void(0)",
                 "detailthree": []
             },
             {
                 "menutwo": "월페이퍼",
-                "menutwolink": "new/wallpaper",
+                "menutwolink": "javascript:void(0)",
                 "detailthree": []
             }
         ]

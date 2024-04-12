@@ -114,6 +114,14 @@
         line-height: 100px;
         padding: 0;
     }
+
+    main #visual .set > div > img:first-child {
+        display: none;
+    }
+
+    main #visual .set > div > img:last-child {
+        display: inline !important;
+    }
 }
 
 @media (max-width: 600px) {
@@ -125,12 +133,12 @@
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 480px) {
     main #visual .text a {
-        width: 140px;
-        font-size: 18px;
+        width: 130px;
+        font-size: 16px;
         height: 45px;
-        line-height: 45px;
+        line-height: 42px;
     }
 }
 
@@ -391,7 +399,7 @@
     }
 
     main #pickfav .containers .text_1 {
-        top: 46.5%;
+        top: 38.5%;
         width: 100%;
         text-align: center;
         left: 0;
@@ -436,7 +444,7 @@
 
     main #pickfav .containers .dreamy_pick {
         width: 85.5%;
-        top: 13.5%;
+        top: 4.5%;
     }
 
     
@@ -738,40 +746,225 @@
     }
 }
 
-/* Coffee One Depth Sub */
+/* Coffee.html */
 
-/* Title */
-@media (max-width: 1200px) {
-    main #title .container .subs {
-        display: none !important;
+/* Filter */
+
+@media (max-width: 570px) {
+    main #filter .container .wrap .filter .top a {
+        font-size: 11px;
     }
 }
 
-/* Blendswiper */
-@media (max-width: 800px) {
-    main #blendswiper .swiper .swiper-button-prev,
-    main #blendswiper .swiper .swiper-button-next {
-        width: 35px;
-        height: 35px;
+@media (max-width: 420px) {
+    main #filter .container .wrap .filter {
+        height: 220px;
     }
-    main #blendswiper .swiper .swiper-button-prev:after,
-    main #blendswiper .swiper .swiper-button-next:after {
+
+    main #filter .container .wrap .filter .top {
+        flex-direction: column;
+    }
+
+    main #filter .container .wrap .filter .top a {
+        margin-bottom: 15px;
+    }
+
+    main #filter .container .wrap .filter .bottom > div {
+        margin-bottom: 15px;
+    }
+}
+
+/* Lists */
+
+
+/* veranda.html */
+
+/* description */
+@media (max-width: 1070px) {
+    main #title .container {
+        max-width: 95%;
+    }
+    main #description .container {
+        max-width: 95%;
+    }
+
+    main #description .container .imgpart .zoom_lens {
+        display: none !important;
+    }
+    main #description .container .descpart .box dl {
+        flex-direction: column;
+        align-items: start;
+        position: relative;
+        padding-left: 40px;
+    }
+
+    main #description .container .descpart .box dl:before {
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+        width: 30px;
+        height: 30px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    main #description .container .descpart .box dl dt {
+        padding: 0;
+    }
+
+    main #description .container .descpart .box dl dt:after {
+        display: none;
+    }
+
+    main #description .container .descpart .box dl dd {
+        padding: 0;
+    }
+}
+
+@media (max-width: 990px) {
+    main #description .container .imgpart {
+        display: none;
+    }
+
+    main #description .container .descpart {
+        width: 100%;
+    }
+
+    main #description .container .descpart > p {
+        padding-bottom: 30px;
+    }
+
+    main #description .container .descpart .hidden_img {
+        display: block;
+    }
+
+    main #description .container .descpart .other .lineup a {
+        width: 100%;
+    }
+
+    main #description .container .descpart .other .new {
+        flex-direction: column;
+    }
+
+    main #description .container .descpart .other .new a {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+
+}
+
+@media (max-width: 470px) {
+    main #description .container .descpart > dl dt {
+        font-size: 20px;
+    }
+
+    main #description .container .descpart .box dl dt {
+        font-size: 13px;
+    }
+
+    main #description .container .descpart .box dl dd {
+        font-size: 12px;
+    }
+}
+
+
+/* farm.html */
+
+/* Link */
+
+@media (max-width: 880px) {
+    #link .container ul li a {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 730px) {
+    #link .container ul {
+        flex-direction: column;
+    }
+
+    #link .container ul li {
+        width: 100%;
+    }
+}
+
+/* farm */
+
+@media (max-width: 1320px) {
+    #farm .container > .desc > .desc__detail p {
+        width: 300px;
+    }
+    #farm .container > .desc > .desc__detail p br {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    #farm .container > .desc > .desc__detail h1 {
         font-size: 16px;
     }
 }
 
-@media (max-width: 600px) {
-    main #blendswiper .swiper .bottom_btn .swiper-pagination {
-        display: flex;
-        align-items: center;
-    }
-    main #blendswiper .swiper .bottom_btn .swiper-pagination span {
-        width: 10px;
-        height: 10px;
+@media (max-width: 960px) {
+    #farm .container > .desc {
+        flex-direction: column;
     }
 
-    main #blendswiper .swiper .bottom_btn .stop_pause a::before {
-        font-size: 15px;
+    #farm .container > .desc > .imgs {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    #farm .container > .desc > .imgs img {
+        width: auto;
+        height: auto;
+        object-fit: none;
+        max-width: 100%;
+    }
+
+    #farm .container > .desc > .desc__detail h1 {
+        font-size: 22px;
+    }
+
+    #farm .container > .desc > .desc__detail p {
+        width: 100%;
     }
 }
 
+@media (max-width: 530px) {
+    #farm .container {
+        max-width: 100%;
+    }
+
+    #farm .container > .desc > .desc__detail h1 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 430px) {
+    #farm .container > .desc > .desc__detail h1 {
+        font-size: 14px;
+    }
+}
+
+/* Supply */
+
+@media (max-width: 1150px) {
+    #supply .container .desc p br {
+        display: none;
+    }
+}
+
+@media (max-width: 960px) {
+    #supply .container .mainimg .coffee_buying {
+        display: none;
+    }
+
+    #supply .container .desc {
+        padding: 0;
+    }
+}

@@ -1,0 +1,120 @@
+/* Link */
+#link {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#link .container {
+    max-width: 80%;
+}
+
+#link .container ul li {
+    display: block;
+    width: 25%;
+}
+
+#link .container ul li a {
+    display: block;
+    padding: 10px 0;
+    border: 1px solid rgba(0,0,0,.3);
+    margin-left: -1px;
+    margin-bottom: -1px;
+    text-align: center;
+    letter-spacing: -1px;
+}
+
+#link .container ul li a.action {
+    background-color: #006633;
+    color: #fff;
+}
+
+/* Farm */
+#farm {
+    margin-bottom: 60px;
+}
+#farm .container {
+    max-width: 80%;
+}
+
+#farm .container > h2 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#farm .container > .desc > .imgs {
+    width: 450px;
+}
+
+#farm .container > .desc > .imgs img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#farm .container > .desc > .desc__detail {
+    padding: 0 15px;
+}
+
+#farm .container > .desc > .desc__detail h1 {
+    font-size: 20px;
+    font-style: italic;
+    color: #0f6f3f;
+    padding-bottom: 30px;
+}
+#farm .container > .desc > .desc__detail p {
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Supply */
+#supply {
+    padding-bottom: 12vw;
+    background-color: #f4f4f2;
+}
+
+#supply .container {
+    max-width: 80%;
+}
+
+#supply .container h2 {
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+#supply .container .mainimg {
+    position: relative;
+}
+
+#supply .container .mainimg > img {
+    width: 100%;
+}
+
+#supply .container .mainimg .coffee_buying {
+    position: absolute;
+    width: 31vw;
+    top: 16vw;
+    left: 0;
+    display: inline-block;
+}
+
+#supply .container .mainimg .coffee_buying img {
+    width: 100%;
+}
+
+#supply .container .desc {
+    padding-left: 32vw;
+}
+
+#supply .container .desc h1 {
+    font-size: 20px;
+    font-style: italic;
+    color: #0f6f3f;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#supply .container .desc p {
+    font-size: 14px;
+    color: #666;
+}

@@ -1,0 +1,191 @@
+/* Title */
+main #title {
+    padding: 20px 0;
+}
+
+main #title .container {
+    max-width: 960px;
+}
+
+main #title .container h2 {
+    font-size: 24px;
+}
+
+/* Description */
+main #description {
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(0,0,0,.4);
+}
+main #description .container {
+    display: flex;
+    max-width: 960px;
+}
+
+main #description .container .imgpart {
+    width: 450px;
+    height: 470px;
+    position: relative;
+}
+
+main #description .container .imgpart img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+main #description .container .imgpart .zoom_lens {
+    width: 305px;
+    height: 280px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    background-color: rgba(255,255,255,.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+main #description .container .imgpart .zoom_window {
+    display: none;
+    position: absolute;
+    top: -2px;
+    left: 550px;
+    width: 410px;
+    height: 468px;
+    border: 1px solid #000;
+    background: url('../images/coffee/etiopia_zoom.jpg') no-repeat;
+    background-position: 0 0;
+    background-size: 900px 940px;
+    background-color: rgb(255, 255, 255);
+    z-index: 50;
+}
+
+main #description .container .descpart {
+    width: calc(960px - 450px);
+}
+main #description .container .descpart > dl {
+    padding-bottom: 15px;
+    border-bottom: 2px solid #000;
+}
+
+main #description .container .descpart > dl dt {
+    font-size: 25px;
+}
+main #description .container .descpart > dl dd {
+    font-size: 15px;
+}
+
+main #description .container .descpart > p {
+    font-size: 14px;
+    padding-bottom: 60px;
+}
+
+main #description .container .descpart .box {
+    background-color: #f4f4f2;
+    padding: 5px 20px;
+    margin-bottom: 50px;
+}
+
+main #description .container .descpart .box dl {
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+
+main #description .container .descpart .box dl::before {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url('../images/coffee/icon_blond.png') no-repeat;
+    margin-right: 15px;
+}
+
+main #description .container .descpart .box dt {
+    padding-right: 10px;
+    position: relative;
+}
+main #description .container .descpart .box dt:after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 12px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto 0;
+    background-color: rgba(0,0,0,.2);
+}
+
+main #description .container .descpart .box dl dd {
+    padding-left: 10px;
+    margin: 0;
+}
+
+main #description .container .descpart .hidden_img {
+    display: none;
+}
+
+main #description .container .descpart .hidden_img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+main #description .container .descpart .other {
+    border-top: 1px solid rgba(0,0,0,.2);
+    padding-top: 20px;
+}
+
+main #description .container .descpart .other span {
+    display: block;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+main #description .container .descpart .other .lineup {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+main #description .container .descpart .other .lineup a {
+    display: block;
+    width: 220px;
+    margin-left: auto;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    background-color: #c69214;
+    border-radius: 5px;
+    padding: 4px 0;
+}
+
+main #description .container .descpart .other .new {
+    margin-bottom: 10px;
+}
+
+main #description .container .descpart .other .new a {
+    width: 49%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+main #description .container .descpart .other .new a:last-child {
+    margin: 0;
+}
+
+main #description .container .descpart .other .new a img {
+    width: 100%;
+}
+
+main #description .container .descpart .other > a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 14px;
+    border: 1px solid rgba(0,0,0,.2);
+}

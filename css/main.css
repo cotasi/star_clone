@@ -390,6 +390,10 @@ main #visual .slogan img {
     width: 100%;
 }
 
+main #visual .container .set > div > img:last-child {
+    display: none;
+}
+
 main #visual .text {
     position: absolute;
     left: 0;
@@ -407,6 +411,13 @@ main #visual .text a {
     margin-top: 20px;
     border-radius: 8px;
     font-size: 12px;
+    transition: all .4s;
+}
+
+main #visual .text a:hover {
+    background-color: #13362d;
+    color: #fff;
+    text-decoration: underline;
 }
 
 /* Twotab */
@@ -842,7 +853,7 @@ main #find .containers .photo2 {
     width: 15.5%;
     position: absolute;
     z-index: 21;
-    top: 27.5%;
+    top: 36.5%;
     left: 18.5%;
 }
 

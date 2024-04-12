@@ -1,97 +1,233 @@
-/* Title */
-main #title {
-    padding: 20px 0;
-}
-
-main #title .container .subs {
-    display: flex;
-    justify-content: end;
-}
-
-main #title .container .subs a:first-of-type:before {
-    content: '\F422';
-    font-family: 'bootstrap-icons' !important;
-}
-
-main #title .container .subs a:last-of-type {
-    font-size: 14px;
-}
-
-/* BlendSwiper */
-main #blendswiper {
-    height: 33vw;
-}
-
-main #blendswiper .swiper {
-    height: 100%;
-}
-
-main #blendswiper .swiper .swiper-wrapper .swiper-slide:first-child {
-    background: url('../images/Spring_promotion_all.jpg') no-repeat center/cover;
-}
-
-main #blendswiper .swiper .swiper-wrapper .swiper-slide:nth-child(2) {
-    background: url('../images/elsalvador_all.jpg') no-repeat center/cover;
-}
-
-main #blendswiper .swiper .swiper-wrapper .swiper-slide a {
-    display: block;
+/* Filter */
+main #filter .container .wrap {
     width: 100%;
-    height: 100%;
+    border: 1px solid rgba(0,0,0,.5);
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 20px;
 }
 
-main #blendswiper .swiper .bottom_btn {
-    position: absolute;
-    bottom: 15px;
-    z-index: 1;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
+main #filter .container .wrap .title {
+    justify-content: space-between;
+    padding-bottom: 15px;
     align-items: center;
 }
 
-main #blendswiper .swiper .swiper-pagination {
-    position: static;
+main #filter .container .wrap .title h2 {
+    font-size: 18px;
 }
 
-main #blendswiper .swiper .swiper-pagination .swiper-pagination-bullet {
-    opacity: .5;
-    width: 15px;
-    height: 15px;
-}
-
-main #blendswiper .swiper .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-    box-sizing: border-box;
-    border: 3px solid #007042;
-    background-color: transparent;
-}
-
-main #blendswiper .swiper .bottom_btn .stop_pause a {
+main #filter .container .wrap .title a {
     display: flex;
     align-items: center;
-}
-
-main #blendswiper .swiper .bottom_btn .stop_pause a:before {
-    content: '\F4C3';
-    font-family: 'bootstrap-icons' !important;
-    font-size: 21px;
-    opacity: .6;
-}
-
-main #blendswiper .swiper .bottom_btn .stop_pause a.paused:before {
-    content: '\F4F4';
-}
-
-main #blendswiper .swiper .swiper-button-prev,
-main #blendswiper .swiper .swiper-button-next {
-    width: 52px;
-    height: 52px;
-    border: 2px solid #000;
+    padding: 10px;
+    width: 36px;
+    height: 36px;
+    background-color: #f4f4f1;
     border-radius: 50%;
 }
 
-main #blendswiper .swiper .swiper-button-prev:after,
-main #blendswiper .swiper .swiper-button-next:after {
-    color: #000;
-    font-size: 25px;
+main #filter .container .wrap .title a:before {
+    content: '\F286';
+    font-family: 'bootstrap-icons' !important;
+}
+
+main #filter .container .wrap .filter {
+    height: 80px;
+    transition: all .4s;
+}
+
+main #filter .container .wrap .filter.off {
+    height: 0;
+    overflow: hidden;
+}
+
+main #filter .container .wrap .filter .top {
+    margin-bottom: 20px;
+}
+
+main #filter .container .wrap .filter .top a {
+    display: block;
+    width: 200px;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+    margin-right: 10px;
+    background-color: #f4f4f1;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+main #filter .container .wrap .filter .top a.active {
+    background-color: #006633;
+    color: #fff;
+}
+
+main #filter .container .wrap .filter .bottom {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main #filter .container .wrap .filter .bottom > div {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+main #filter .container .wrap .filter .bottom > div > label {
+    font-size: 12px;
+}
+main #filter .container .wrap .filter .bottom > div > input {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    opacity: 0;
+}
+
+main #filter .container .wrap .filter .bottom > div > .checkeds {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #cbcdca;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+main #filter .container .wrap .filter .bottom > div > .checkeds.ez_check {
+    background: url('../images/check_on.jpg') no-repeat;
+}
+
+/* Selector */
+main #selector {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+main #selector .selectors {
+    display: inline-block;
+    width: 200px;
+    padding: 8px;
+    border: 1px solid rgba(0,0,0,.4);
+    border-radius: 5px;
+}
+
+main #selector .selectors > a {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+main #selector .selectors > a:before {
+    content: '\F282';
+    font-family: 'bootstrap-icons' !important;
+}
+
+main #selector .selectors #selectors {
+    top: 100%;
+    left: 0;
+    right: 0;
+    padding: 0;
+    background-color: #fff;
+    border-radius: 5px;
+    border: none;
+    height: 0;
+    overflow: hidden;
+    transition: .5s;
+}
+
+main #selector .selectors #selectors.height {
+    padding: 8px;
+    height: 85px;
+    border: 1px solid rgba(0,0,0,.2);
+}
+
+main #selector .selectors #selectors li {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    position: relative;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+}
+
+main #selector .selectors #selectors li:last-child {
+    padding: 0;
+    padding-top: 10px;
+    border: 0;
+}
+
+main #selector .selectors #selectors li input {
+    width: 10px;
+    height: 10px;
+    opacity: 0;
+    margin-right: 10px;
+}
+
+main #selector .selectors #selectors li label {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+main #selector .selectors #selectors li label:before {
+    content: '';
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    background: url('../images/new.png') no-repeat;
+    margin-right: 10px;
+}
+
+main #selector .selectors #selectors li .checking {
+    width: 15px;
+    height: 15px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0,0,0,.4);
+    position: absolute;
+    left: 0;
+}
+
+/* List */
+main #filter .container .menulist > div {
+    display: none;
+}
+
+main #filter .container .menulist > div.on {
+    display: block;
+}
+
+main #filter .container .menulist > div > .titler {
+    background-color: #f4f4f2;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+main #filter .container .menulist > div > .titler a:hover {
+    text-decoration: underline;
+}
+
+main #filter .container .menulist > div > .list_wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main #filter .container .menulist > div > .list_wrap .each_list {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+main #filter .container .menulist > div > .list_wrap .each_list a {
+    display: block;
+}
+
+main #filter .container .menulist > div > .list_wrap .each_list h2 {
+    text-align: center;
+    font-size: 16px;
 }
