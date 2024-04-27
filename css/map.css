@@ -1,0 +1,122 @@
+/* Mapgraphics */
+#mapgraphic {
+    width: 100%;
+    height: 800px;
+}
+
+#mapgraphic #map {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Finds */
+main {
+    position: relative;
+}
+
+#finds {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 45;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#finds .find__tab {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #f4f4f2;
+    border-radius: 0 5px 0 0;
+}
+
+#finds .find__tab a {
+    display: block;
+    width: 50%;
+    text-align: center;
+    background-color: #006633;
+    color: #fff;
+    height: 100%;
+    line-height: 50px;
+    font-size: 20px;
+    border-radius: 5px 0 0 0;
+}
+
+#finds .find__input {
+    padding: 15px 0;
+    text-align: center;
+    background-color: #006633;
+    position: relative;
+}
+
+#finds .find__input input {
+    width: 80%;
+    height: 35px;
+    padding: 15px 10px;
+}
+
+#finds .find__input input:focus {
+    outline: none;
+}
+
+#finds .find__input input::placeholder {
+    font-size: 14px;
+}
+
+#finds .find__input button {
+    position: absolute;
+    right: calc(10% + 15px);
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    border: none;
+    background-color: transparent;
+}
+
+#finds .find__input button:before {
+    content: '\F52A';
+    font-family: 'bootstrap-icons' !important;
+}
+
+#finds .find__list {
+    height: 500px;
+    background-color: #fff;
+}
+
+#finds .find__list > div {
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0,0,0,.4);
+    display: block;
+}
+
+#finds .find__list > div.off {
+    display: none;
+}
+
+#finds .find__list > div > .container {
+    padding: 10px 0;
+    max-width: 90%;
+    position: relative;
+}
+
+#finds .find__list > div > .container > h2 {
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+#finds .find__list > div > .container > h3 {
+    font-size: 15px;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+
+#finds .find__list > div > .container .imgpart {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}

@@ -23,16 +23,8 @@ const menudata = [
                     },
                     {
                         "menuthree": "최상의 아라비카 원두",
-                        "menuthreelink": "javascript:void(0)"
+                        "menuthreelink": "/sub/story/arabica.html"
                     },
-                    {
-                        "menuthree": "스타벅스 로스트 스펙트럼",
-                        "menuthreelink": "javascript:void(0)"
-                    },
-                    {
-                        "menuthree": "스타벅스 디카페인",
-                        "menuthreelink": "javascript:void(0)"
-                    }
                 ]
             },
             {

@@ -981,3 +981,109 @@
         padding: 0;
     }
 }
+
+/* Ara */
+
+@media (max-width: 1280px) {
+    #ara .container .imgarea .descarea .description p {
+        font-size: 14px;
+    }
+
+    #ara .container .imgarea .descarea .description p br {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    #ara .container .imgarea .descarea .youtube {
+        width: 30%;
+        height: 250px;
+    }
+
+    #ara .container .imgarea .descarea .description p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 800px) {
+    #ara .container .imgarea {
+        height: 80vw;
+    }
+
+    #ara .container .imgarea .arabicalogo {
+        top: 22.5%;
+    }
+
+    #ara .container .imgarea .descarea {
+        flex-direction: column;
+        justify-content: end;
+    }
+
+    #ara .container .imgarea .descarea .youtube {
+        width: 100%;
+        height: 150px;
+    }
+
+    #ara .container .imgarea .descarea .description {
+        width: 100%;
+        margin-top: 30px;
+        padding-bottom: 23px;
+    }
+}
+
+@media (max-width: 650px) {
+    #ara .container .imgarea .descarea .youtube {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 610px) {
+    #ara .container .imgarea .descarea {
+        flex-direction: column-reverse;
+    }
+
+    #ara .container .imgarea .descarea .description {
+        margin-top: 10px;
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 520px) {
+    #ara .container .imgarea .descarea .description h2 {
+        font-size: 16px;
+        padding-bottom: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    #ara .container .imgarea img:not(.arabicalogo) {
+        display: none;
+    }
+
+    #ara .container .imgarea .arabicalogo {
+        top: 3.5%;
+        width: 15%;
+        right: 2.5%;
+        margin: 0 auto;
+    }
+
+    #ara .container .imgarea .descarea {
+        flex-direction: column;
+    }
+
+    #ara .container .imgarea .descarea .description h2 {
+        display: none;
+    }
+
+    #ara .container .imgarea .descarea .description p {
+        color: #bcb5a2;
+    }
+}
+
+@media (max-width: 380px) {
+    #ara .container .imgarea .descarea .youtube {
+        height: 100px;
+    }
+}

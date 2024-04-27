@@ -27,7 +27,7 @@
 
     <!-- Title -->
 
-    <title>Coffee | Starbucks Coffee Korea</title>
+    <title>Find a Store | Starbucks Coffee Korea</title>
 
     <!-- favicon 파일 설정을 하지 않고, Root 경로에 favicon.ico 파일을 넣으면
          자동으로 favicon.ico 파일이 파비콘으로 적용된다
@@ -59,8 +59,8 @@
     <!-- main.css -->
     <link rel="stylesheet" href="../../css/main.css">
 
-    <!-- magazine.css -->
-    <link rel="stylesheet" href="../../css/magazine.css">
+    <!-- Map.css -->
+    <link rel="stylesheet" href="../../css/map.css">
 
     <!-- media.css -->
     <link rel="stylesheet" href="../../css/media.css">
@@ -68,11 +68,17 @@
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+    <!-- Kakaomap api -->
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=55293e136721f50ab92fcf71923d2a4b"></script>
+
     <!-- Anime.js -->
     <script src="../../js/anime.min.js"></script>
 
     <!-- menu.js -->
     <script src="../../js/menu.js" type="module"></script>
+
+    <!-- map.js -->
+    <script src="../../js/map.js" type="module"></script>
 
     <!-- header.js -->
     <script src="../../js/header.js"></script>
@@ -127,13 +133,22 @@
     </header>
 
     <main>
-        <section id="title">
-            <div class="container">
-                <h1><img src="../../images/reserve/reserve_titC.jpg" alt="title"></h1>
+        <section id="mapgraphic">
+            <div id="map"></div>
+        </section>
+        <section id="finds">
+            <div class="find__tab">
+                <a href="javascript:void(0)">매장찾기</a>
+            </div>
+            <div class="find__input">
+                <input type="text" placeholder="매장명 및 주소 입력">
+                <button type="submit"><span class="visually-hidden">검색</span></button>
+            </div>
+            <div class="find__list">
+                
             </div>
         </section>
     </main>
-
 
     <footer>
         <div class="container">

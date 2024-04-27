@@ -118,3 +118,68 @@
     font-size: 14px;
     color: #666;
 }
+
+/* Arabica - #ara */
+
+#ara .container {
+    max-width: 80%;
+}
+
+#ara .container > h2 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#ara .container .imgarea {
+    position: relative;
+    height: 58vw;
+}
+
+#ara .container .imgarea > img:not(.arabicalogo) {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#ara .container .imgarea .arabicalogo {
+    position: absolute;
+    width: 18%;
+    top: 33.5%;
+    right: 8.5%;
+}
+
+#ara .container .imgarea .descarea {
+    background-color: #000;
+    display: flex;
+    padding: 15px;
+    height: 100%;
+    align-items: end;
+}
+
+#ara .container .imgarea .descarea .youtube {
+    width: 50%;
+    height: 300px;
+}
+
+#ara .container .imgarea .descarea .youtube iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#ara .container .imgarea .descarea .description {
+    width: 70%;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 63px;
+}
+
+#ara .container .imgarea .descarea .description h2 {
+    padding-bottom: 15px;
+    color: #bcb5a2;
+    font-size: 20px;
+}

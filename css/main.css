@@ -420,6 +420,45 @@ main #visual .text a:hover {
     text-decoration: underline;
 }
 
+main #visual.animate .fizzio {
+    animation: fizzio 2s;
+}
+
+main #visual.animate .brew {
+    animation: brew 2s;
+}
+
+main #visual.animate .cream {
+    animation: cream 2s;
+}
+
+@keyframes fizzio {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes brew {
+    from {
+        opacity: 0;
+    } 
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes cream {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 /* Twotab */
 main #noticepro .tabs {
     height: 54px;
@@ -514,103 +553,99 @@ main #noticepro .tabs > div:last-child > a i.on:before {
 }
 
 main #noticepro .promotion {
+    height: 600px;
     background-color: #f6f5ef;
-    height: 0;
-    overflow: hidden;
-    transition: height .4s;
+    padding: 30px 0;
 }
 
-main #noticepro .promotion.on {
-    height: 659px;
-}
-
-main #noticepro .promotion .swiper-container {
-    padding-top: 40px;
-}
-
-main #noticepro .promotion .swiper-container .swiper-wrapper .swiper-slide {
-    padding-bottom: 80px;
-    width: 819px !important;
-    position: relative;
-}
-
-main #noticepro .promotion .swiper-container .swiper-wrapper .swiper-slide .images img {
-    width: 100%;
+main #noticepro .promotion .promotion_wrap {
     height: 100%;
-    object-fit: cover;
+    position: relative;
+    overflow: hidden;
 }
 
-main #noticepro .promotion .swiper-container .swiper-wrapper .swiper-slide h2 {
-    padding-top: 40px;
-    font-size: 24px;
-    text-align: center;
-    line-height: 1.2;
-    padding-bottom: 20px;
+main #noticepro .promotion .promotion_wrap ul.promotion_slider {
+    height: 100%;
+    display: flex;
+    transition: margin .4s;
 }
 
-main #noticepro .promotion .swiper-container .swiper-wrapper .swiper-slide h3 {
-    font-size: 18px;
-    text-align: center;
-    font-weight: 200;
+main #noticepro .promotion .promotion_wrap ul.promotion_slider li {
+    flex-shrink: 0;
+    width: 819px;
+    margin-right: 10px;
+    opacity: .4;
 }
 
-main #noticepro .promotion .swiper-container .swiper-wrapper .swiper-slide .btnsss {
-    width: 100%;
-    text-align: center;
-    margin-top: 40px;
-}
-
-main #noticepro .promotion .swiper-container .swiper-wrapper .swiper-slide .btnsss a {
-    padding: 10px 20px;
-    border: 1px solid #000;
-    border-radius: 10px;
-}
-
-main #noticepro .promotion .swiper-container .swiper-wrapper .swiper-slide {
-    opacity: .5;
-    transition: opacity 1s;
-}
-
-main #noticepro .promotion .swiper-container .swiper-wrapper .swiper-slide.swiper-slide-active {
+main #noticepro .promotion .promotion_wrap ul.promotion_slider li.active {
     opacity: 1;
 }
 
-main #noticepro .promotion .swiper-container .swiper-pagination .swiper-pagination-bullet {
-    background-color: #acaba7;
-    width: 12px;
-    height: 12px;
+main #noticepro .promotion .promotion_wrap ul.promotion_slider li .image_wrap img {
+    width: 100%;
 }
 
-main #noticepro .promotion .swiper-container .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-    box-sizing: border-box;
-    border: 2px solid #007042;
+main #noticepro .promotion .promotion_wrap ul.promotion_slider li .promotion_title {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #171717;
+    padding-bottom: 15px;
+}
+
+main #noticepro .promotion .promotion_wrap ul.promotion_slider li .date {
+    text-align: center;
+    font-size: 18px;
+}
+
+main #noticepro .promotion .promotion_wrap ul.promotion_slider li .detail_btn button {
+    width: 150px;
+    margin: 20px auto;
+    padding: 10px 0;
+    display: block;
+    background: transparent;
+    border: 1px solid #333;
+    border-radius: 5px;
+    transition: all .4s;
+}
+
+main #noticepro .promotion .promotion_wrap ul.promotion_slider li .detail_btn button:hover {
+    border: none;
+    background: #333;
+    color: #fff;
+}
+
+main #noticepro .promotion .promotion_wrap .prev {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 50%;
     background-color: transparent;
+    position: absolute;
+    margin: auto 0;
+    top: 0;
+    bottom: 0;
+    left: 100px;
 }
 
-main #noticepro .promotion .swiper-container .swiper-button-prev {
-    width: 42px;
-    height: 42px;
-    border: 2px solid #000;
+main #noticepro .promotion .promotion_wrap .prev i:before,
+main #noticepro .promotion .promotion_wrap .next i:before
+ {
+    font-size: 35px;
+}
+
+main #noticepro .promotion .promotion_wrap .next {
+     width: 50px;
+    height: 50px;
+    border: 1px solid #000;
     border-radius: 50%;
-    left: 50px;
-}
-
-main #noticepro .promotion .swiper-container .swiper-button-prev::after {
-    font-size: 20px;
-    color: #000;
-}
-
-main #noticepro .promotion .swiper-container .swiper-button-next {
-    width: 42px;
-    height: 42px;
-    border: 2px solid #000;
-    border-radius: 50%;
-    right: 50px;
-}
-
-main #noticepro .promotion .swiper-container .swiper-button-next::after {
-    font-size: 20px;
-    color: #000;
+    background-color: transparent;
+    position: absolute;
+    margin: auto 0;
+    top: 0;
+    bottom: 0;
+    right: 100px;
 }
 
 /* REWARDS */
